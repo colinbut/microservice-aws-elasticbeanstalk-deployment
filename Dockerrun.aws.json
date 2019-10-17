@@ -1,0 +1,13 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "066203203749.dkr.ecr.eu-west-2.amazonaws.com/microservice-nodejs:1.0.1",
+        "Update": true
+    },
+    "Ports": [
+        {
+            "ContainerPort": 3000,
+            "HostPort": 3000
+        }
+    ]
+}
